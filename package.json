@@ -35,7 +35,7 @@
 		"@ctx-core/error": "^5.1.60",
 		"@ctx-core/object": "^6.3.10",
 		"@ctx-core/store": "^12.3.1",
-		"auth0-lock": "^11.19.0"
+		"auth0-lock": "^11.20.0"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.3"
