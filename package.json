@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "6.1.0",
+	"version": "6.1.1",
 	"description": "ctx-core auth0-lock",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -30,7 +30,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^18.0.0",
+		"@ctx-core/auth0": "^18.0.1",
 		"@ctx-core/env": "^8.3.0",
 		"@ctx-core/error": "^5.1.64",
 		"@ctx-core/object": "^7.0.0",
