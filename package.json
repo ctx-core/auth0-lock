@@ -2,7 +2,6 @@
 	"name": "@ctx-core/auth0-lock",
 	"version": "6.1.55",
 	"description": "ctx-core auth0-lock",
-	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
