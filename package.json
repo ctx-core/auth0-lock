@@ -35,10 +35,10 @@
 		"@ctx-core/error": "^5.1.80",
 		"@ctx-core/object": "^8.0.14",
 		"@ctx-core/store": "^13.1.32",
-		"auth0-lock": "^11.24.1"
+		"auth0-lock": "^11.24.2"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.5"
 	},
 	"gitHead": "49ebbf0f86ab90a2962113e70bd600dd396fb398"
 }
