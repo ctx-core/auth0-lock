@@ -38,7 +38,7 @@
 		"auth0-lock": "^11.25.1"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.6"
+		"typescript": "^3.9.7"
 	},
 	"gitHead": "4b8680fa884ccb3425cb63d4c87a027dec1ec1c9"
 }
