@@ -1,5 +1,5 @@
-import { writable } from 'svelte/store'
 import { _b } from '@ctx-core/object'
+import { writable } from '@ctx-core/store'
 export const b__auth0Lock = _b('__auth0Lock', ()=>
 	writable(null))
 export const __auth0Lock = b__auth0Lock()
