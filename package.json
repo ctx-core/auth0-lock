@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "6.1.136",
+	"version": "6.1.137",
 	"description": "ctx-core auth0-lock",
 	"main": "./index.js",
 	"module": "./index.js",
