@@ -1,6 +1,20 @@
 # @ctx-core/auth0-lock
 
+## 7.0.1
+
+### Patch Changes
+
+- fix: npm run compile: path to tsc
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@20.0.1
+  - @ctx-core/env@8.4.1
+  - @ctx-core/error@6.0.1
+  - @ctx-core/object@11.0.1
+  - @ctx-core/package@4.0.1
+  - @ctx-core/store@16.2.11
+
 ## 7.0.0
+
 ### Major Changes
 
 - typescript types overhaul & extracting modules
