@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/auth0-lock",
-  "version": "8.0.5",
+  "version": "8.0.6",
   "description": "ctx-core auth0-lock",
   "keywords": [
     "ctx-core",
@@ -28,7 +28,7 @@
     "prepublishOnly": "npm run compile"
   },
   "dependencies": {
-    "@ctx-core/auth0": "workspace:^21.0.5",
+    "@ctx-core/auth0": "workspace:^21.0.6",
     "@ctx-core/env": "workspace:^9.0.1",
     "@ctx-core/error": "workspace:^7.0.1",
     "@ctx-core/function": "workspace:^16.0.0",
