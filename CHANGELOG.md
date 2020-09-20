@@ -1,5 +1,18 @@
 # @ctx-core/auth0-lock
 
+## 8.0.4
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@21.0.4
+  - @ctx-core/env@9.0.1
+  - @ctx-core/error@7.0.1
+  - @ctx-core/object@12.0.1
+  - @ctx-core/package@5.0.2
+  - @ctx-core/store@17.0.2
+
 ## 8.0.3
 
 ### Patch Changes
