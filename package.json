@@ -1,48 +1,47 @@
 {
-  "name": "@ctx-core/auth0-lock",
-  "version": "8.0.3",
-  "description": "ctx-core auth0-lock",
-  "keywords": [
-    "ctx-core",
-    "auth0",
-    "auth0-lock"
-  ],
-  "homepage": "https://github.com/ctx-core/auth0-lock#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/auth0-lock/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/auth0-lock.git"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/auth0": "workspace:*",
-    "@ctx-core/env": "workspace:*",
-    "@ctx-core/error": "workspace:*",
-    "@ctx-core/function": "workspace:*",
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/package": "workspace:*",
-    "@ctx-core/store": "workspace:*",
-    "auth0-lock": "^11.27.0",
-    "svelte": "~3.25.1"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "3c12cb1273b5f28aaa08820b21be7ed8957ce6a0"
+	"name": "@ctx-core/auth0-lock",
+	"version": "8.0.3",
+	"description": "ctx-core auth0-lock",
+	"keywords": [
+		"ctx-core",
+		"auth0",
+		"auth0-lock"
+	],
+	"homepage": "https://github.com/ctx-core/auth0-lock#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/auth0-lock/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/auth0-lock.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/auth0": "workspace:*",
+		"@ctx-core/env": "workspace:*",
+		"@ctx-core/error": "workspace:*",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/package": "workspace:*",
+		"@ctx-core/store": "workspace:*",
+		"auth0-lock": "^11.27.0",
+		"svelte": "~3.25.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
