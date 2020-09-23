@@ -1,5 +1,13 @@
 # @ctx-core/auth0-lock
 
+## 8.0.19
+
+### Patch Changes
+
+- version bump to sync with npm
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@21.0.19
+
 ## 8.0.18
 
 ### Patch Changes
