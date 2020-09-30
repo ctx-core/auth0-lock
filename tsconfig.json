@@ -26,7 +26,12 @@
 			"dom"
 		],
 		"importsNotUsedAsValues": "error",
-		"strict": true
+		"strict": true,
+		"types": [
+			"auth0-js",
+			"auth0-lock",
+			"node"
+		]
 	},
 	"exclude": [
 		"node_modules"

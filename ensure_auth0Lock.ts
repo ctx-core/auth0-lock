@@ -1,4 +1,4 @@
-import { get } from 'svelte/store'
+import { get } from '@ctx-core/store'
 import { __auth0Lock, __logout_Auth0Lock } from './store'
 import { _Auth0Lock } from './_Auth0Lock'
 import { _logout_Auth0Lock } from './_logout_Auth0Lock'
