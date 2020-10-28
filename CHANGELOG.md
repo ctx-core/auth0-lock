@@ -1,5 +1,20 @@
 # @ctx-core/auth0-lock
 
+## 8.0.68
+
+### Patch Changes
+
+- auth0-lock: ^11.27.0 -> ^11.27.1
+- typescript: ^4.0.3 -> ^4.0.5
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@21.0.68
+  - @ctx-core/env@9.0.25
+  - @ctx-core/error@7.0.15
+  - @ctx-core/function@16.1.2
+  - @ctx-core/object@13.0.1
+  - @ctx-core/package@5.0.23
+  - @ctx-core/store@23.0.9
+
 ## 8.0.67
 
 ### Patch Changes
