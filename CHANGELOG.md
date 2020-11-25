@@ -1,5 +1,25 @@
 # @ctx-core/auth0-lock
 
+## 8.1.0
+
+### Minor Changes
+
+- \_b: required ctx argument & generic type updates
+- Extract separate modules
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.0
+  - @ctx-core/auth0@21.2.0
+  - @ctx-core/env@9.1.0
+  - @ctx-core/error@7.1.2
+  - @ctx-core/store@23.1.2
+  - @ctx-core/package@5.0.30
+
 ## 8.0.81
 
 ### Patch Changes
