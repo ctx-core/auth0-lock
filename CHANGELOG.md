@@ -1,5 +1,24 @@
 # @ctx-core/auth0-lock
 
+## 8.1.13
+
+### Patch Changes
+
+- interface instead of type: auth0_lock_type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+  - @ctx-core/auth0@21.2.12
+  - @ctx-core/error@7.1.6
+  - @ctx-core/env@9.1.6
+  - @ctx-core/store@23.1.8
+  - @ctx-core/package@5.0.34
+
 ## 8.1.12
 
 ### Patch Changes
