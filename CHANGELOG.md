@@ -1,5 +1,16 @@
 # @ctx-core/auth0-lock
 
+## 8.2.0
+
+### Minor Changes
+
+- annotated api with types
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@21.3.0
+
 ## 8.1.39
 
 ### Patch Changes
