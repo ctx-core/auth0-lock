@@ -1,5 +1,14 @@
 # @ctx-core/auth0-lock
 
+## 8.2.20
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.4.1
+  - @ctx-core/auth0@21.3.19
+  - @ctx-core/env@9.3.11
+
 ## 8.2.19
 
 ### Patch Changes
