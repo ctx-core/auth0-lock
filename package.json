@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "8.2.27",
+	"version": "9.0.0",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,9 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -28,13 +28,13 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^21.3.26",
-		"@ctx-core/env": "workspace:^9.3.16",
-		"@ctx-core/error": "workspace:^7.1.25",
-		"@ctx-core/function": "workspace:^16.9.1",
-		"@ctx-core/object": "workspace:^16.1.1",
-		"@ctx-core/package": "workspace:^5.0.56",
-		"@ctx-core/store": "workspace:^23.4.6",
+		"@ctx-core/auth0": "workspace:^22.0.0",
+		"@ctx-core/env": "workspace:^10.0.0",
+		"@ctx-core/error": "workspace:^8.0.0",
+		"@ctx-core/function": "workspace:^17.0.0",
+		"@ctx-core/object": "workspace:^17.0.0",
+		"@ctx-core/package": "workspace:^6.0.0",
+		"@ctx-core/store": "workspace:^24.0.0",
 		"auth0-lock": "^11.28.0",
 		"svelte": "3.32.1"
 	},
