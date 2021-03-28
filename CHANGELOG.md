@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 9.0.50
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.0.49
+  - @ctx-core/env@10.0.32
+  - @ctx-core/error@8.0.19
+  - @ctx-core/function@17.4.2
+  - @ctx-core/object@17.4.1
+  - @ctx-core/package@6.1.14
+  - @ctx-core/store@24.1.14
+
 ## 9.0.49
 
 ### Patch Changes
