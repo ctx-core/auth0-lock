@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 9.0.51
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.0.50
+  - @ctx-core/env@10.0.33
+  - @ctx-core/error@8.0.20
+  - @ctx-core/function@17.4.3
+  - @ctx-core/object@17.4.2
+  - @ctx-core/package@6.1.15
+  - @ctx-core/store@24.1.15
+
 ## 9.0.50
 
 ### Patch Changes
