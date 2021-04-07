@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 9.0.55
+
+### Patch Changes
+
+- typescript: ^4.2.3 -> ^4.2.4
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.0.53
+  - @ctx-core/env@10.0.36
+  - @ctx-core/error@8.0.22
+  - @ctx-core/function@17.4.5
+  - @ctx-core/object@17.4.4
+  - @ctx-core/package@6.1.17
+  - @ctx-core/store@24.1.18
+
 ## 9.0.54
 
 ### Patch Changes
