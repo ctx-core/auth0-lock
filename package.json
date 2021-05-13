@@ -34,7 +34,7 @@
 		"@ctx-core/function": "workspace:^17.8.5",
 		"@ctx-core/object": "workspace:^17.5.27",
 		"@ctx-core/package": "workspace:^6.1.25",
-		"@ctx-core/store": "workspace:^24.7.23",
+		"@ctx-core/store": "workspace:^24.7.24",
 		"auth0-lock": "^11.30.0",
 		"svelte": "3.38.2"
 	},
