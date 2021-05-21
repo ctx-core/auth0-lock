@@ -2,10 +2,10 @@ import type Auth0Lock from 'auth0-lock'
 import { _b } from '@ctx-core/object'
 import { writable$, Writable$ } from '@ctx-core/store'
 const key = 'auth0_lock'
-export interface auth0_lock_ctx_I {
+export interface auth0_lock_Ctx {
 	auth0_lock?:auth0_lock_T
 }
-export const auth0_lock_b = _b<auth0_lock_ctx_I, typeof key>(key, ()=>
+export const auth0_lock_b = _b<auth0_lock_Ctx, typeof key>(key, ()=>
 	writable$<$auth0_lock_T|undefined>(undefined) as auth0_lock_T
 )
 export type $auth0_lock_T = typeof Auth0Lock
