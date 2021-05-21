@@ -1,4 +1,4 @@
-import { _b, assign, B } from '@ctx-core/object'
+import { _b, assign } from '@ctx-core/object'
 import { get } from '@ctx-core/store'
 import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
 import {
@@ -6,9 +6,14 @@ import {
 } from '@ctx-core/auth0'
 import { auth0_lock_b, auth0_lock_ctx_I } from './auth0_lock_b'
 import type { logout_auth0_lock_params_I } from './logout_auth0_lock_params_I'
-export const logout_auth0_lock_b:logout_auth0_lock_b_T = _b('logout_auth0_lock', (
-	ctx:logout_auth0_lock_ctx_I
-)=>{
+const key = 'logout_auth0_lock'
+export interface logout_auth0_lock_ctx_I
+	extends auth0_token_ctx_I,
+		auth0_lock_ctx_I,
+		AUTH0_CLIENT_ID_ctx_I {
+	logout_auth0_lock?:logout_auth0_lock_T
+}
+export const logout_auth0_lock_b = _b<logout_auth0_lock_ctx_I, typeof key>(key, ctx=>{
 	const auth0_token = auth0_token_b(ctx)
 	const auth0_lock = auth0_lock_b(ctx)
 	const AUTH0_CLIENT_ID = AUTH0_CLIENT_ID_b(ctx)
@@ -27,9 +32,4 @@ export const logout_auth0_lock_b:logout_auth0_lock_b_T = _b('logout_auth0_lock',
 		}
 	}
 })
-export interface logout_auth0_lock_ctx_I
-	extends auth0_token_ctx_I, auth0_lock_ctx_I, AUTH0_CLIENT_ID_ctx_I {
-	logout_auth0_lock?:logout_auth0_lock_T
-}
 export type logout_auth0_lock_T = (opts:logout_auth0_lock_params_I)=>Promise<void>
-export interface logout_auth0_lock_b_T extends B<logout_auth0_lock_T> {}
