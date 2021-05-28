@@ -1,5 +1,14 @@
 # @ctx-core/auth0-lock
 
+## 9.4.5
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+- Updated dependencies [undefined]
+  - @ctx-core/env@10.4.3
+  - @ctx-core/auth0@22.4.8
+
 ## 9.4.4
 
 ### Patch Changes
