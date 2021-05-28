@@ -1,6 +1,6 @@
 import { _b, assign, B } from '@ctx-core/object'
 import { get } from '@ctx-core/store'
-import { error_Ctx, throw_missing_argument } from '@ctx-core/error'
+import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
 import { AUTH0_CLIENT_ID_b, auth0_token_b } from '@ctx-core/auth0'
 import { auth0_lock_b } from './auth0_lock_b'
 import type { logout_auth0_lock_params_I } from './logout_auth0_lock_params_I'
@@ -19,7 +19,7 @@ export const logout_auth0_lock_b:B<auth0_lock_Ctx, typeof key> = _b<auth0_lock_C
 				in_opts
 			) as logout_auth0_lock_params_I
 			if (!opts.returnTo)
-				throw_missing_argument({ key: 'opts.returnTo' } as error_Ctx)
+				throw_missing_argument({ key: 'opts.returnTo' } as error_ctx_I)
 			auth0_token.clear_auth0_token()
 			Auth0Lock.logout(opts)
 		}

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "9.4.3",
+	"version": "9.4.4",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -21,15 +21,16 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"scripts": {
-		"build": "npm run clean && npm run compile",
+		"build": "npm run clean && npm run generate_ctx_I_file && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
-		"prepublishOnly": "npm run compile"
+		"prepublishOnly": "npm run compile",
+		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^22.4.6",
-		"@ctx-core/env": "workspace:^10.4.1",
+		"@ctx-core/auth0": "workspace:^22.4.7",
+		"@ctx-core/env": "workspace:^10.4.2",
 		"@ctx-core/error": "workspace:^8.3.1",
 		"@ctx-core/function": "workspace:^17.11.1",
 		"@ctx-core/object": "workspace:^18.2.1",
@@ -39,6 +40,7 @@
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
+		"@ctx-core/dev-tools": "workspace:^4.0.0",
 		"@types/auth0": "^2.33.3",
 		"@types/auth0-js": "^9.14.4",
 		"@types/auth0-lock": "^11.27.1",
