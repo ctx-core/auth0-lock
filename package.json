@@ -40,7 +40,7 @@
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^4.0.0",
+		"@ctx-core/dev-tools": "workspace:^4.0.1",
 		"@types/auth0": "^2.33.3",
 		"@types/auth0-js": "^9.14.4",
 		"@types/auth0-lock": "^11.27.1",
