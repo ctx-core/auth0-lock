@@ -1,5 +1,14 @@
 # @ctx-core/auth0-lock
 
+## 10.0.12
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@23.0.13
+  - @ctx-core/env@11.0.12
+
 ## 10.0.11
 
 ### Patch Changes
