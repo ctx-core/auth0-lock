@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 10.0.16
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@23.0.17
+  - @ctx-core/env@11.0.16
+  - @ctx-core/error@9.0.4
+  - @ctx-core/function@18.1.3
+  - @ctx-core/object@19.1.3
+  - @ctx-core/package@7.0.2
+  - @ctx-core/store@25.1.13
+
 ## 10.0.15
 
 ### Patch Changes
