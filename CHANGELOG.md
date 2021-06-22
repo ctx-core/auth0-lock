@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 11.0.15
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.16
+  - @ctx-core/env@12.0.11
+  - @ctx-core/error@10.0.7
+  - @ctx-core/function@19.1.7
+  - @ctx-core/object@20.0.8
+  - @ctx-core/package@8.0.7
+  - @ctx-core/store@26.0.9
+
 ## 11.0.14
 
 ### Patch Changes
