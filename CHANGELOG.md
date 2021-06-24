@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 11.0.18
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.19
+  - @ctx-core/env@12.0.14
+  - @ctx-core/error@10.1.1
+  - @ctx-core/function@19.1.8
+  - @ctx-core/object@20.1.1
+  - @ctx-core/package@8.0.8
+  - @ctx-core/store@26.0.12
+
 ## 11.0.17
 
 ### Patch Changes
