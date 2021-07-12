@@ -33,7 +33,7 @@
 		"@ctx-core/env": "workspace:^12.0.29",
 		"@ctx-core/error": "workspace:^10.1.9",
 		"@ctx-core/function": "workspace:^19.2.0",
-		"@ctx-core/object": "workspace:^20.4.2",
+		"@ctx-core/object": "workspace:^20.5.0",
 		"@ctx-core/package": "workspace:^8.0.16",
 		"@ctx-core/store": "workspace:^26.0.27",
 		"auth0-lock": "^11.30.3",
