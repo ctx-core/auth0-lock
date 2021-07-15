@@ -1,5 +1,14 @@
 # @ctx-core/auth0-lock
 
+## 12.0.3
+
+### Patch Changes
+
+- import: + .js extention
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.3
+  - @ctx-core/env@13.0.3
+
 ## 12.0.2
 
 ### Patch Changes
