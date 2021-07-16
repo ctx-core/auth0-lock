@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 12.0.6
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.6
+  - @ctx-core/env@13.0.5
+  - @ctx-core/error@11.0.4
+  - @ctx-core/function@20.0.3
+  - @ctx-core/object@21.0.3
+  - @ctx-core/package@9.0.4
+  - @ctx-core/store@27.0.3
+
 ## 12.0.5
 
 ### Patch Changes
