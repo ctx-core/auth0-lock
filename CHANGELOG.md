@@ -1,5 +1,33 @@
 # @ctx-core/auth0-lock
 
+## 12.0.15
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.15
+  - @ctx-core/env@13.0.12
+  - @ctx-core/error@11.0.11
+  - @ctx-core/function@20.0.10
+  - @ctx-core/object@21.0.10
+  - @ctx-core/package@9.0.11
+  - @ctx-core/store@27.0.9
+
+## 12.0.14
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.14
+  - @ctx-core/env@13.0.11
+  - @ctx-core/error@11.0.10
+  - @ctx-core/function@20.0.9
+  - @ctx-core/object@21.0.9
+  - @ctx-core/package@9.0.10
+  - @ctx-core/store@27.0.8
+
 ## 12.0.13
 
 ### Patch Changes
