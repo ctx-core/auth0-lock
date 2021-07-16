@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 12.0.10
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.10
+  - @ctx-core/env@13.0.8
+  - @ctx-core/error@11.0.7
+  - @ctx-core/function@20.0.6
+  - @ctx-core/object@21.0.6
+  - @ctx-core/package@9.0.7
+  - @ctx-core/store@27.0.5
+
 ## 12.0.9
 
 ### Patch Changes
