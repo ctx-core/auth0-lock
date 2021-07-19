@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 12.0.19
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.19
+  - @ctx-core/env@13.0.13
+  - @ctx-core/error@11.0.12
+  - @ctx-core/function@20.0.11
+  - @ctx-core/object@21.0.11
+  - @ctx-core/package@9.0.12
+  - @ctx-core/store@27.0.10
+
 ## 12.0.18
 
 ### Patch Changes
