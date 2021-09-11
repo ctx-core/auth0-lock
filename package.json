@@ -38,7 +38,7 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^25.0.84",
+		"@ctx-core/auth0": "workspace:^25.0.85",
 		"@ctx-core/env": "workspace:^13.0.38",
 		"@ctx-core/error": "workspace:^11.0.16",
 		"@ctx-core/function": "workspace:^20.2.0",
