@@ -1,5 +1,22 @@
 # @ctx-core/auth0-lock
 
+## 12.0.105
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/package@9.1.0
+  - @ctx-core/auth0@25.0.103
+  - @ctx-core/env@13.0.45
+  - @ctx-core/error@11.0.18
+  - @ctx-core/function@20.2.3
+  - @ctx-core/object@21.0.22
+  - @ctx-core/store@27.0.36
+
 ## 12.0.104
 
 ### Patch Changes
