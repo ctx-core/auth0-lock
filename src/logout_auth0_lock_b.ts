@@ -12,7 +12,7 @@ export const logout_auth0_lock_b:B<auth0_lock_Ctx, typeof key> = be_<auth0_lock_
 	const AUTH0_CLIENT_ID$ = AUTH0_CLIENT_ID$_b(ctx)
 	return logout_auth0_lock as logout_auth0_lock_T
 	async function logout_auth0_lock(in_opts:logout_auth0_lock_params_I) {
-		const auth0_lock = auth0_lock$._
+		const auth0_lock = auth0_lock$.$
 		if (auth0_lock) {
 			const opts = assign(
 				{ client_id: get(AUTH0_CLIENT_ID$) },
