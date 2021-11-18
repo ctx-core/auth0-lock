@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "12.0.107",
+	"version": "12.0.108",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -37,24 +37,24 @@
 		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^26.0.1",
-		"@ctx-core/env": "workspace:^13.0.46",
-		"@ctx-core/error": "workspace:^11.0.19",
-		"@ctx-core/function": "workspace:^20.2.4",
-		"@ctx-core/object": "workspace:^21.0.23",
-		"@ctx-core/package": "workspace:^9.1.1",
-		"@ctx-core/store": "workspace:^27.0.37",
+		"@ctx-core/auth0": "workspace:^26.0.2",
+		"@ctx-core/env": "workspace:^13.0.47",
+		"@ctx-core/error": "workspace:^11.0.20",
+		"@ctx-core/function": "workspace:^20.2.5",
+		"@ctx-core/object": "workspace:^21.0.24",
+		"@ctx-core/package": "workspace:^9.1.2",
+		"@ctx-core/store": "workspace:^27.0.38",
 		"auth0-lock": "^11.31.1",
 		"svelte": "3.44.1"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.2.1",
+		"@ctx-core/dev-tools": "workspace:^7.2.2",
 		"@swc/cli": "^0.1.51",
-		"@swc/core": "^1.2.108",
-		"@types/auth0": "^2.34.6",
+		"@swc/core": "^1.2.110",
+		"@types/auth0": "^2.34.7",
 		"@types/auth0-js": "^9.14.5",
 		"@types/auth0-lock": "^11.27.3",
-		"typescript": "^4.4.4"
+		"typescript": "^4.5.2"
 	},
 	"publishConfig": {
 		"access": "public",
