@@ -1,5 +1,39 @@
 # @ctx-core/auth0-lock
 
+## 12.0.111
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/package@9.1.4
+  - @ctx-core/auth0@26.0.5
+  - @ctx-core/env@13.0.49
+  - @ctx-core/error@11.1.3
+  - @ctx-core/function@20.2.7
+  - @ctx-core/object@21.0.26
+  - @ctx-core/store@27.0.40
+
+## 12.0.110
+
+### Patch Changes
+
+- svelte: 3.44.1 -> 3.44.2
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/package@9.1.3
+  - @ctx-core/auth0@26.0.4
+  - @ctx-core/env@13.0.48
+  - @ctx-core/store@27.0.39
+  - @ctx-core/error@11.1.2
+  - @ctx-core/function@20.2.6
+  - @ctx-core/object@21.0.25
+
 ## 12.0.109
 
 ### Patch Changes
