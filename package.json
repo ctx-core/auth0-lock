@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "12.0.118",
+	"version": "12.0.119",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -18,7 +18,6 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./src/index.ts",
 	"exports": {
@@ -37,18 +36,18 @@
 		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^26.0.12",
-		"@ctx-core/env": "workspace:^13.0.53",
-		"@ctx-core/error": "workspace:^11.1.7",
+		"@ctx-core/auth0": "workspace:^26.0.13",
+		"@ctx-core/env": "workspace:^13.0.54",
+		"@ctx-core/error": "workspace:^11.1.8",
 		"@ctx-core/function": "workspace:^20.2.12",
 		"@ctx-core/object": "workspace:^21.0.30",
-		"@ctx-core/package": "workspace:^9.1.8",
-		"@ctx-core/store": "workspace:^27.0.44",
+		"@ctx-core/package": "workspace:^9.1.9",
+		"@ctx-core/store": "workspace:^27.0.45",
 		"auth0-lock": "^11.31.1",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.2.8",
+		"@ctx-core/dev-tools": "workspace:^7.2.9",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",
 		"@types/auth0": "^2.34.7",

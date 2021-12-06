@@ -1,5 +1,17 @@
 # @ctx-core/auth0-lock
 
+## 12.0.119
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/auth0@26.0.13
+  - @ctx-core/env@13.0.54
+  - @ctx-core/error@11.1.8
+  - @ctx-core/package@9.1.9
+  - @ctx-core/store@27.0.45
+
 ## 12.0.118
 
 ### Patch Changes
