@@ -42,13 +42,13 @@
 		"@ctx-core/error": "workspace:^11.1.7",
 		"@ctx-core/function": "workspace:^20.2.12",
 		"@ctx-core/object": "workspace:^21.0.30",
-		"@ctx-core/package": "workspace:^9.1.7",
+		"@ctx-core/package": "workspace:^9.1.8",
 		"@ctx-core/store": "workspace:^27.0.44",
 		"auth0-lock": "^11.31.1",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.2.7",
+		"@ctx-core/dev-tools": "workspace:^7.2.8",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",
 		"@types/auth0": "^2.34.7",
