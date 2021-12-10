@@ -3,10 +3,9 @@ import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
 import { be_, assign, B } from '@ctx-core/object'
 import { get } from '@ctx-core/store'
 import { auth0_lock$_b } from './auth0_lock$_b.js'
-import type { auth0_lock_Ctx } from './auth0_lock_Ctx.js'
 import type { logout_auth0_lock_params_I } from './logout_auth0_lock_params_I.js'
 const key = 'logout_auth0_lock'
-export const logout_auth0_lock_b:B<auth0_lock_Ctx, typeof key> = be_<auth0_lock_Ctx, typeof key>(key, ctx=>{
+export const logout_auth0_lock_b:B<logout_auth0_lock_T> = be_(key, ctx=>{
 	const auth0_token$ = auth0_token$_b(ctx)
 	const auth0_lock$ = auth0_lock$_b(ctx)
 	const AUTH0_CLIENT_ID$ = AUTH0_CLIENT_ID$_b(ctx)
