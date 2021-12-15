@@ -27,7 +27,7 @@
 	},
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rm -rf dist",
+		"clean": "rimraf dist",
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
@@ -49,6 +49,7 @@
 		"@types/auth0": "^2.34.8",
 		"@types/auth0-js": "^9.14.5",
 		"@types/auth0-lock": "^11.27.3",
+		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
 	"publishConfig": {
