@@ -1,7 +1,6 @@
 import { AUTH0_CLIENT_ID$_b, auth0_token$_b } from '@ctx-core/auth0'
 import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
 import { be_, assign, B } from '@ctx-core/object'
-import { get } from '@ctx-core/store'
 import { auth0_lock$_b } from './auth0_lock$_b.js'
 import type { logout_auth0_lock_params_I } from './logout_auth0_lock_params_I.js'
 const key = 'logout_auth0_lock'
@@ -14,7 +13,7 @@ export const logout_auth0_lock_b:B<logout_auth0_lock_T> = be_(key, ctx=>{
 		const auth0_lock = auth0_lock$.$
 		if (auth0_lock) {
 			const opts = assign(
-				{ client_id: get(AUTH0_CLIENT_ID$) },
+				{ client_id: AUTH0_CLIENT_ID$.$ },
 				in_opts
 			) as logout_auth0_lock_params_I
 			if (!opts.returnTo)

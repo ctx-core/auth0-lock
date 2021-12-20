@@ -1,5 +1,17 @@
 # @ctx-core/auth0-lock
 
+## 14.0.0
+
+### Major Changes
+
+- using @ctx-core/nanostores for stores instead of @ctx-core/store,@ctx-core/svelte
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/auth0@28.0.0
+  - @ctx-core/env@15.0.0
+
 ## 13.0.9
 
 ### Patch Changes
