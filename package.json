@@ -49,7 +49,7 @@
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.122",
-		"@types/auth0": "^2.34.8",
+		"@types/auth0": "^2.34.9",
 		"@types/auth0-js": "^9.14.5",
 		"@types/auth0-lock": "^11.27.3",
 		"rimraf": "^3.0.2",
