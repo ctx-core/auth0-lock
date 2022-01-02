@@ -36,7 +36,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^28.0.8",
+		"@ctx-core/auth0": "workspace:^28.0.9",
 		"@ctx-core/env": "workspace:^15.0.7",
 		"@ctx-core/error": "workspace:^11.1.18",
 		"@ctx-core/function": "workspace:^20.2.21",
@@ -48,7 +48,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.124",
+		"@swc/core": "^1.2.125",
 		"@types/auth0": "^2.34.9",
 		"@types/auth0-js": "^9.14.5",
 		"@types/auth0-lock": "^11.27.3",
