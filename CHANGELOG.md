@@ -1,5 +1,18 @@
 # @ctx-core/auth0-lock
 
+## 14.0.6
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/auth0@28.0.8
+  - @ctx-core/env@15.0.7
+  - @ctx-core/error@11.1.18
+  - @ctx-core/function@20.2.21
+  - @ctx-core/nanostores@0.3.1
+  - @ctx-core/package@9.1.21
+
 ## 14.0.5
 
 ### Patch Changes
