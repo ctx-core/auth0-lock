@@ -36,7 +36,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^28.0.9",
+		"@ctx-core/auth0": "workspace:^28.0.10",
 		"@ctx-core/env": "workspace:^15.0.7",
 		"@ctx-core/error": "workspace:^11.1.20",
 		"@ctx-core/function": "workspace:^20.2.21",
