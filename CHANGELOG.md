@@ -1,5 +1,25 @@
 # @ctx-core/auth0-lock
 
+## 14.0.10
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- @types/auth0: ^2.34.9 -> ^2.34.10
+- svelte: ^3.44.3 -> ^3.45.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@28.0.13
+  - @ctx-core/env@15.0.9
+  - @ctx-core/error@11.1.22
+  - @ctx-core/function@20.2.24
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+  - @ctx-core/package@9.1.25
+
 ## 14.0.9
 
 ### Patch Changes
