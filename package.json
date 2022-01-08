@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "14.0.10",
+	"version": "14.0.11",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -36,13 +36,13 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^28.0.13",
-		"@ctx-core/env": "workspace:^15.0.9",
-		"@ctx-core/error": "workspace:^11.1.22",
-		"@ctx-core/function": "workspace:^20.2.24",
-		"@ctx-core/nanostores": "workspace:^0.3.3",
-		"@ctx-core/object": "workspace:^22.0.11",
-		"@ctx-core/package": "workspace:^9.1.25",
+		"@ctx-core/auth0": "workspace:^28.0.14",
+		"@ctx-core/env": "workspace:^15.0.10",
+		"@ctx-core/error": "workspace:^11.1.23",
+		"@ctx-core/function": "workspace:^20.2.25",
+		"@ctx-core/nanostores": "workspace:^0.3.4",
+		"@ctx-core/object": "workspace:^22.0.12",
+		"@ctx-core/package": "workspace:^9.1.26",
 		"auth0-lock": "^11.31.1",
 		"svelte": "^3.45.0"
 	},
@@ -59,5 +59,6 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./lib/index.js"
+	"svelte": "./lib/index.js",
+	"sideEffects": false
 }
