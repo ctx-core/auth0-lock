@@ -40,11 +40,11 @@
 		"@ctx-core/env": "workspace:^15.0.13",
 		"@ctx-core/error": "workspace:^11.1.23",
 		"@ctx-core/function": "workspace:^20.2.25",
-		"@ctx-core/nanostores": "workspace:^0.3.7",
+		"@ctx-core/nanostores": "workspace:^0.3.8",
 		"@ctx-core/object": "workspace:^22.0.12",
 		"@ctx-core/package": "workspace:^9.1.26",
 		"auth0-lock": "^11.32.0",
-		"svelte": "^3.45.0"
+		"svelte": "^3.46.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
