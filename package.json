@@ -42,11 +42,11 @@
 		"@ctx-core/nanostores": "workspace:^0.4.2",
 		"@ctx-core/object": "workspace:^22.0.13",
 		"@ctx-core/package": "workspace:^9.1.26",
-		"auth0-lock": "^11.32.0",
+		"auth0-lock": "^11.32.1",
 		"svelte": "^3.46.3"
 	},
 	"devDependencies": {
-		"@types/auth0": "^2.34.10",
+		"@types/auth0": "^2.34.11",
 		"@types/auth0-js": "^9.14.5",
 		"@types/auth0-lock": "^11.27.3",
 		"c8": "^7.11.0",
