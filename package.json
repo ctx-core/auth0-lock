@@ -36,7 +36,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "workspace:^29.1.2",
-		"@ctx-core/env": "workspace:^15.0.18",
+		"@ctx-core/env": "workspace:^15.0.19",
 		"@ctx-core/error": "workspace:^11.3.0",
 		"@ctx-core/function": "workspace:^20.4.0",
 		"@ctx-core/nanostores": "workspace:^0.5.0",
