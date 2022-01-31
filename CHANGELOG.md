@@ -1,5 +1,17 @@
 # @ctx-core/auth0-lock
 
+## 15.0.0
+
+### Major Changes
+
+- flatten functions: remove \_b suffix from exports
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/auth0@30.0.0
+  - @ctx-core/env@16.0.0
+
 ## 14.0.25
 
 ### Patch Changes
