@@ -43,7 +43,7 @@
 		"@ctx-core/object": "workspace:^22.0.13",
 		"@ctx-core/package": "workspace:^9.1.26",
 		"auth0-lock": "^11.32.1",
-		"svelte": "^3.46.3"
+		"svelte": "^3.46.4"
 	},
 	"devDependencies": {
 		"@types/auth0": "^2.34.11",
