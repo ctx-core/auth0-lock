@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "15.0.54",
+	"version": "15.0.55",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -33,12 +33,12 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^34.2.15",
-		"@ctx-core/env": "^16.0.20",
-		"@ctx-core/error": "^11.4.5",
+		"@ctx-core/auth0": "^34.2.16",
+		"@ctx-core/env": "^16.0.21",
+		"@ctx-core/error": "^11.4.6",
 		"@ctx-core/function": "^20.7.1",
 		"@ctx-core/nanostores": "^1.0.16",
-		"@ctx-core/object": "^22.1.8",
+		"@ctx-core/object": "^22.1.9",
 		"@ctx-core/package": "^9.1.32",
 		"auth0-lock": "^11.32.2",
 		"svelte": "^3.47.0"
