@@ -39,7 +39,7 @@
 		"@ctx-core/function": "^20.8.0",
 		"@ctx-core/nanostores": "^1.0.19",
 		"@ctx-core/object": "^22.2.0",
-		"@ctx-core/package": "^9.1.38",
+		"@ctx-core/package": "^9.1.39",
 		"auth0-lock": "^11.33.0",
 		"svelte": "^3.48.0"
 	},
