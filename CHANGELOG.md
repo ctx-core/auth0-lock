@@ -1,5 +1,16 @@
 # @ctx-core/auth0-lock
 
+## 15.1.0
+
+### Minor Changes
+
+- stores have \__ suffix: alias \$_ suffix
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/auth0@34.3.0
+
 ## 15.0.68
 
 ### Patch Changes
