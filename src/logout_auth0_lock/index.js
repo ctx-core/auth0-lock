@@ -1,7 +1,7 @@
 import { AUTH0_CLIENT_ID__, clear_auth0_token } from '@ctx-core/auth0'
 import { throw_missing_argument } from '@ctx-core/error'
 import { assign } from '@ctx-core/object'
-import { auth0_lock__ } from './auth0_lock__.js'
+import { auth0_lock__ } from '../auth0_lock__/index.js'
 /**
  * @param {import('@ctx-core/object').Ctx}ctx
  * @param {import('./_types').logout_auth0_lock_params_I}in_opts
