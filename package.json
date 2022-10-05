@@ -39,12 +39,12 @@
 		"@ctx-core/function": "^21.4.0",
 		"@ctx-core/nanostores": "^2.2.0",
 		"@ctx-core/object": "^22.2.8",
-		"@ctx-core/package": "^9.1.43",
+		"@ctx-core/package": "^9.1.44",
 		"auth0-lock": "^11.34.1",
 		"svelte": "^3.50.1"
 	},
 	"devDependencies": {
-		"@types/auth0": "^2.35.5",
+		"@types/auth0": "^2.35.6",
 		"@types/auth0-js": "^9.14.6",
 		"@types/auth0-lock": "^11.27.4",
 		"c8": "^7.12.0",
