@@ -37,7 +37,7 @@
 		"@ctx-core/env": "^16.1.17",
 		"@ctx-core/error": "^11.5.1",
 		"@ctx-core/function": "^21.4.0",
-		"@ctx-core/nanostores": "^2.2.0",
+		"@ctx-core/nanostores": "^2.2.1",
 		"@ctx-core/object": "^22.2.8",
 		"@ctx-core/package": "^9.1.44",
 		"auth0-lock": "^11.34.2",
