@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 15.1.87
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/auth0@35.0.78
+  - @ctx-core/env@16.1.37
+  - @ctx-core/error@11.5.14
+  - @ctx-core/function@21.6.1
+  - @ctx-core/nanostores@2.2.17
+  - @ctx-core/object@24.1.1
+  - @ctx-core/package@9.1.61
+
 ## 15.1.86
 
 ### Patch Changes
