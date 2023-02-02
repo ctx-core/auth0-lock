@@ -1,5 +1,13 @@
 # @ctx-core/auth0-lock
 
+## 15.1.97
+
+### Patch Changes
+
+- import type { ... } instead of import { type ... }
+- Updated dependencies
+  - @ctx-core/auth0@35.0.87
+
 ## 15.1.96
 
 ### Patch Changes
