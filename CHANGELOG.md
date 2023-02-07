@@ -1,5 +1,18 @@
 # @ctx-core/auth0-lock
 
+## 15.2.0
+
+### Minor Changes
+
+- name convention updates
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@11.6.0
+  - @ctx-core/auth0@35.1.0
+
 ## 15.1.107
 
 ### Patch Changes

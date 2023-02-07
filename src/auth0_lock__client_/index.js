@@ -6,6 +6,11 @@ import { AUTH0_CLIENT_ID__, AUTH0_DOMAIN__ } from '@ctx-core/auth0'
  * @return {Auth0LockStatic}
  * @private
  */
-export function auth0_lock_client_(ctx, options) {
+export function auth0_lock__client_(
+	ctx, options
+) {
 	return new Auth0Lock(AUTH0_CLIENT_ID__(ctx).$, AUTH0_DOMAIN__(ctx).$, options)
+}
+export {
+	auth0_lock__client_ as auth0_lock_client_,
 }

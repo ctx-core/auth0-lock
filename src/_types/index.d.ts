@@ -1,1 +1,1 @@
-export * from './logout_auth0_lock_params_I'
+export * from './auth0_lock__logout__params_T'
