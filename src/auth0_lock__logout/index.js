@@ -1,4 +1,4 @@
-import { AUTH0_CLIENT_ID__, auth0__token__clear } from '@ctx-core/auth0'
+import { auth0__token__clear, AUTH0_CLIENT_ID_ } from '@ctx-core/auth0'
 import { missing_argument__throw } from '@ctx-core/error'
 import { assign } from '@ctx-core/object'
 import { auth0_lock__ } from '../auth0_lock__/index.js'
@@ -11,7 +11,7 @@ export async function auth0_lock__logout(ctx, in_opts) {
 	const auth0_lock = auth0_lock__(ctx).$
 	if (auth0_lock) {
 		const opts = assign({
-			client_id: AUTH0_CLIENT_ID__(ctx).$
+			client_id: AUTH0_CLIENT_ID_(ctx)
 		}, in_opts)
 		if (!opts.returnTo) missing_argument__throw({
 			key: 'opts.returnTo'
