@@ -1,5 +1,13 @@
 # @ctx-core/auth0-lock
 
+## 15.2.84
+
+### Patch Changes
+
+- reference type: Be instead of B
+- Updated dependencies
+  - @ctx-core/env@17.2.13
+
 ## 15.2.83
 
 ### Patch Changes
