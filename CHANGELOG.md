@@ -1,5 +1,17 @@
 # @ctx-core/auth0-lock
 
+## 15.2.99
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@37.0.0
+  - @ctx-core/env@17.2.18
+
 ## 15.2.98
 
 ### Patch Changes
