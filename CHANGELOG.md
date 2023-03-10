@@ -1,5 +1,15 @@
 # @ctx-core/auth0-lock
 
+## 15.2.145
+
+### Patch Changes
+
+- svelte: ^3.55.1 -> ^3.56.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@37.7.34
+  - @ctx-core/env@17.2.34
+
 ## 15.2.144
 
 ### Patch Changes
