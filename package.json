@@ -34,12 +34,12 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "^38.0.39",
-		"@ctx-core/env": "^17.2.63",
+		"@ctx-core/env": "^17.2.75",
 		"@ctx-core/error": "^12.3.7",
-		"@ctx-core/function": "^21.17.0",
+		"@ctx-core/function": "^21.17.12",
 		"@ctx-core/nanostores": "^3.2.3",
-		"@ctx-core/object": "^27.4.4",
-		"@ctx-core/package": "^9.2.42",
+		"@ctx-core/object": "^27.4.16",
+		"@ctx-core/package": "^9.2.55",
 		"auth0-lock": "^12.0.2"
 	},
 	"devDependencies": {
