@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 15.2.255
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/auth0@38.0.59
+  - @ctx-core/env@17.2.83
+  - @ctx-core/error@12.3.26
+  - @ctx-core/function@21.17.19
+  - @ctx-core/nanostores@3.2.22
+  - @ctx-core/object@27.4.23
+  - @ctx-core/package@9.2.62
+
 ## 15.2.254
 
 ### Patch Changes
