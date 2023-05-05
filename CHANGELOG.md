@@ -1,11 +1,20 @@
 # @ctx-core/auth0-lock
 
+## 15.3.1
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^3.4.2 -> ^3.4.3
+- Updated dependencies
+  - @ctx-core/auth0@38.2.10
+  - @ctx-core/env@17.2.90
+
 ## 15.3.0
 
 ### Minor Changes
 
-- - auth0_lock\__new: aliased by auth0_lock\__client\_
-- - auth0_lock_,auth0_lock\__set
+- - auth0_lock\_\_new: aliased by auth0_lock\_\_client\_
+- - auth0*lock*,auth0_lock\_\_set
 
 ### Patch Changes
 
@@ -1510,7 +1519,7 @@
 
 ### Patch Changes
 
-- import_meta_env_() instead of process.env
+- import*meta_env*() instead of process.env
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
@@ -5189,7 +5198,7 @@
 
 ### Patch Changes
 
-- fix: import.meta.url instead of \__dirname
+- fix: import.meta.url instead of \_\_dirname
 - Updated dependencies [undefined]
   - @ctx-core/auth0@25.0.5
   - @ctx-core/package@9.0.3
