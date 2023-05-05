@@ -1,5 +1,17 @@
 # @ctx-core/auth0-lock
 
+## 15.3.0
+
+### Minor Changes
+
+- - auth0_lock\__new: aliased by auth0_lock\__client\_
+- - auth0_lock_,auth0_lock\__set
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/auth0@38.2.9
+
 ## 15.2.286
 
 ### Patch Changes

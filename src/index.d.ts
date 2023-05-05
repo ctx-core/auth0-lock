@@ -1,6 +1,6 @@
 export * from './_types'
 export * from './auth0_lock__'
-export * from './auth0_lock__client_'
+export * from './auth0_lock__new'
 export * from './AUTH0_LOCK_URL_'
 export * from './AUTH0_LOCK_URL'
 export * from './auth0_lock__logout'
