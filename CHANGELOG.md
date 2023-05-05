@@ -1498,7 +1498,7 @@
 
 ### Patch Changes
 
-- import*meta_env*() instead of process.env
+- import_meta_env_() instead of process.env
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
@@ -5177,7 +5177,7 @@
 
 ### Patch Changes
 
-- fix: import.meta.url instead of \_\_dirname
+- fix: import.meta.url instead of \__dirname
 - Updated dependencies [undefined]
   - @ctx-core/auth0@25.0.5
   - @ctx-core/package@9.0.3
