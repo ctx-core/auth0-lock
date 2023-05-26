@@ -1,5 +1,18 @@
 # @ctx-core/auth0-lock
 
+## 15.3.12
+
+### Patch Changes
+
+- fix: types:
+
+      auth0_lock__
+      auth0_lock_
+      auth0_lock__set
+
+- Updated dependencies
+  - @ctx-core/auth0@38.2.20
+
 ## 15.3.11
 
 ### Patch Changes
