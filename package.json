@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "15.3.89",
+	"version": "15.3.90",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^39.0.35",
+		"@ctx-core/auth0": "^39.0.36",
 		"@ctx-core/env": "^17.2.128",
 		"@ctx-core/error": "^12.3.39",
 		"@ctx-core/function": "^21.19.0",
