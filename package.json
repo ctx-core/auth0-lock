@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "15.3.154",
+	"version": "15.3.155",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -33,22 +33,22 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^40.0.59",
-		"@ctx-core/env": "^17.3.9",
-		"@ctx-core/error": "^12.3.44",
-		"@ctx-core/function": "^21.20.1",
-		"@ctx-core/nanostores": "^6.0.12",
-		"@ctx-core/object": "^28.2.0",
-		"@ctx-core/package": "^9.2.108",
+		"@ctx-core/auth0": "^40.0.60",
+		"@ctx-core/env": "^17.3.10",
+		"@ctx-core/error": "^12.3.45",
+		"@ctx-core/function": "^21.20.2",
+		"@ctx-core/nanostores": "^6.0.13",
+		"@ctx-core/object": "^28.2.1",
+		"@ctx-core/package": "^9.2.109",
 		"auth0-lock": "^12.3.0"
 	},
 	"devDependencies": {
-		"@types/auth0": "^3.3.6",
-		"@types/auth0-js": "^9.21.1",
-		"@types/auth0-lock": "^11.27.7",
+		"@types/auth0": "^3.3.8",
+		"@types/auth0-js": "^9.21.2",
+		"@types/auth0-lock": "^11.27.8",
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
-		"tsx": "^3.13.0",
+		"tsx": "^3.14.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
