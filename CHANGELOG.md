@@ -1,5 +1,15 @@
 # @ctx-core/auth0-lock
 
+## 15.3.165
+
+### Patch Changes
+
+- @types/auth0-js: ^9.21.2 -> ^9.21.3
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@40.0.71
+  - @ctx-core/package@9.2.111
+
 ## 15.3.164
 
 ### Patch Changes
