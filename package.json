@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "15.3.190",
+	"version": "15.4.0",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -18,9 +18,9 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,13 +33,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^40.0.96",
-		"@ctx-core/env": "^17.3.19",
-		"@ctx-core/error": "^12.3.49",
-		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/nanostores": "^7.0.8",
-		"@ctx-core/object": "^30.0.0",
-		"@ctx-core/package": "^9.2.117",
+		"@ctx-core/auth0": "^40.1.0",
+		"@ctx-core/env": "^17.4.0",
+		"@ctx-core/error": "^12.4.0",
+		"@ctx-core/function": "^21.21.0",
+		"@ctx-core/nanostores": "^7.1.0",
+		"@ctx-core/object": "^30.1.0",
+		"@ctx-core/package": "^9.3.0",
 		"auth0-lock": "^12.3.0"
 	},
 	"devDependencies": {
@@ -56,6 +56,5 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./src/index.js",
 	"sideEffects": false
 }

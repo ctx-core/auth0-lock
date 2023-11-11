@@ -1,5 +1,5 @@
-import Auth0Lock from 'auth0-lock'
 import { AUTH0_CLIENT_ID_, AUTH0_DOMAIN$_ } from '@ctx-core/auth0'
+import Auth0Lock from 'auth0-lock'
 /**
  * @param {import('@ctx-core/object').Ctx}ctx
  * @param {Auth0LockConstructorOptions}options

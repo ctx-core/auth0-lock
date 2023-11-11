@@ -1,5 +1,5 @@
 import { import_meta_env_, missing_env__throw } from '@ctx-core/env'
-import { AUTH0_LOCK_URL_ } from '../AUTH0_LOCK_URL_/index.js'
+import { AUTH0_LOCK_URL_ } from '../AUTH0_LOCK_URL_'
 if (!import_meta_env_().AUTH0_CLIENT_ID) missing_env__throw('AUTH0_CLIENT_ID')
 if (!import_meta_env_().AUTH0_DOMAIN) missing_env__throw('AUTH0_DOMAIN')
 /** @type {typeof import('./index.d.ts').AUTH0_LOCK_URL} */
