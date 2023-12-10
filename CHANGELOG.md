@@ -1,5 +1,19 @@
 # @ctx-core/auth0-lock
 
+## 15.4.98
+
+### Patch Changes
+
+- @ctx-core/function: ^21.22.33 -> ^21.23.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@12.4.38
+  - @ctx-core/object@31.1.20
+  - @ctx-core/auth0@40.1.78
+  - @ctx-core/env@17.4.43
+  - @ctx-core/nanostores@9.0.25
+
 ## 15.4.97
 
 ### Patch Changes
