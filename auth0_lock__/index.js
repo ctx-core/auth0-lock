@@ -1,6 +1,6 @@
+/// <reference types="./index.d.ts" />
 import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
 /** @typedef {import('@ctx-core/nanostores').be_atom_triple_T} */
-/** @typedef {import('./index.d.ts').auth0_lock_T} */
 export const [
 	auth0_lock__,
 	auth0_lock_,

@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import Auth0Lock from 'auth0-lock'
 export declare function auth0_lock__new(
 	ctx:Ctx, options:Auth0LockConstructorOptions
