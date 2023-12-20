@@ -34,8 +34,6 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "^40.1.118",
-		"@ctx-core/env": "^17.4.61",
-		"@ctx-core/nanostores": "^10.0.4",
 		"@ctx-core/package": "^9.3.61",
 		"auth0-lock": "^12.3.1",
 		"ctx-core": "^5.1.0"
