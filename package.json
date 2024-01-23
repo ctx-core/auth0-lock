@@ -37,7 +37,7 @@
 		"@ctx-core/auth0": "^40.1.180",
 		"@ctx-core/package": "^9.3.117",
 		"auth0-lock": "^12.4.0",
-		"ctx-core": "^5.27.0"
+		"ctx-core": "^5.27.1"
 	},
 	"devDependencies": {
 		"@types/auth0": "^3.3.10",
