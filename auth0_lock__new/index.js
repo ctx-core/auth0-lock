@@ -2,7 +2,7 @@
 import { AUTH0_CLIENT_ID_, AUTH0_DOMAIN$_ } from '@ctx-core/auth0'
 import Auth0Lock from 'auth0-lock'
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {Auth0LockConstructorOptions}options
  * @return {Auth0LockStatic}
  * @private

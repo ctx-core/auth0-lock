@@ -4,7 +4,7 @@ import { auth0__token__clear, AUTH0_CLIENT_ID_ } from '@ctx-core/auth0'
 import { missing_argument__throw } from 'ctx-core/error'
 import { auth0_lock__ } from '../auth0_lock__/index.js'
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {auth0_lock__logout__params_T}params
  * @return {Promise<void>}
  */
