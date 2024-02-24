@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "15.4.256",
+	"version": "15.4.257",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "^40.1.222",
-		"@ctx-core/package": "^9.3.159",
+		"@ctx-core/package": "^9.3.160",
 		"auth0-lock": "^12.4.0",
 		"ctx-core": "^6.4.5"
 	},
