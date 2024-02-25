@@ -1,5 +1,14 @@
 # @ctx-core/auth0-lock
 
+## 15.4.259
+
+### Patch Changes
+
+- ctx-core: ^6.4.6 -> ^6.5.0
+- Updated dependencies
+  - @ctx-core/auth0@40.1.224
+  - @ctx-core/package@9.3.162
+
 ## 15.4.258
 
 ### Patch Changes
