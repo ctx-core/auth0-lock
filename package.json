@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-lock",
-	"version": "15.4.271",
+	"version": "15.4.272",
 	"description": "ctx-core auth0-lock",
 	"keywords": [
 		"ctx-core",
@@ -16,7 +16,11 @@
 		"url": "https://github.com/ctx-core/auth0-lock.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-auth0-lock@briantakita.me"
+	},
 	"type": "module",
 	"types": "./index.d.ts",
 	"exports": {
@@ -34,10 +38,10 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^40.1.236",
-		"@ctx-core/package": "^9.3.173",
+		"@ctx-core/auth0": "^40.1.237",
+		"@ctx-core/package": "^9.3.174",
 		"auth0-lock": "^12.4.0",
-		"ctx-core": "^6.6.0"
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"@types/auth0": "^3.3.10",

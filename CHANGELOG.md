@@ -1,5 +1,15 @@
 # @ctx-core/auth0-lock
 
+## 15.4.272
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - @ctx-core/auth0@40.1.237
+  - ctx-core@6.6.1
+  - @ctx-core/package@9.3.174
+
 ## 15.4.271
 
 ### Patch Changes
