@@ -1,5 +1,15 @@
 # @ctx-core/auth0-lock
 
+## 15.4.337
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - @ctx-core/auth0@40.1.298
+  - ctx-core@7.2.34
+  - @ctx-core/package@9.3.228
+
 ## 15.4.336
 
 ### Patch Changes
